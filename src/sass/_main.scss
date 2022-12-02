@@ -1,0 +1,95 @@
+.guitar__fret {
+    border-right: 2px solid #000;
+}
+
+.guitar__nut {
+    border-left: 5px solid #000;
+}
+
+.guitar__legend {
+    font-weight: bold;
+}
+
+.guitar__string-label {
+    padding-top: 0.4rem;
+    padding-right: 0.75rem;
+}
+
+.guitar__block,
+.guitar__finger {
+    font-weight: bold;
+    margin: 0.3rem 0;
+}
+
+.guitar__block {
+    color: #fff;  
+    border: 0;
+}
+
+.guitar__finger {
+    border-radius: 2rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.guitar__interval-root,
+.guitar__interval-octave,
+.guitar__interval-fourth,
+.guitar__interval-fifth {
+    background-color: #800000;
+}
+
+.guitar__interval-second {
+    background-color: #000080;
+}
+
+.guitar__interval-third {
+    background-color: #2B7EFA;
+}
+
+.guitar__interval-augmented {
+    background-color: #008000;
+}
+
+.guitar__interval-diminished {
+    background-color: #CBCBCB;
+}
+
+.guitar__interval-sixth {
+    background-color: #800080;
+}
+
+.guitar__interval-seventh {
+    background-color:#CC6600;
+}
+
+.guitar__interval-dom-seventh {
+    background-color:#CC99CC;
+}
+
+.guitar__interval-ninth,
+.guitar__interval-eleventh {
+    background-color:#FFFF80;
+}
+
+.guitar__chord {
+    border: 2px solid #f00;
+    text-transform: uppercase;
+}
+
+
+.guitar__string-sixth hr,
+.guitar__string-fifth hr {
+    height: 4px;
+}
+
+.guitar__string-fourth hr,
+.guitar__string-third hr {
+    height: 5px;
+}
+
+.guitar__string-second hr,
+.guitar__string-first hr {
+    height: 6px;
+}
