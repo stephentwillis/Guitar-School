@@ -1,8 +1,8 @@
 body {
 	font-family: $font-primary;
 	font-size: $font-regular;
-	//color: $gray-lightest;
-	//background-color: $gray-darkest;
+	color: $black;
+	background-color: $white;
 
 	&.noscroll {
 		overflow: hidden;
@@ -43,12 +43,6 @@ body {
 			content: "xlarge";
 		}
 	} // xlarge
-}
-
-hr {
-    border-width:0;
-    color:#000;
-    background-color:#000;
 }
 
 // HEADINGS
@@ -103,8 +97,8 @@ b,
 
 figure {
 	text-align: center;
-    //background-color: $gray-lightest;
-	//color: $gray-darkest;
+    background-color: $white;
+	color: $black;
     padding: 1rem;
     border-radius: 1rem;
 	font-size: 1.25rem;
@@ -118,7 +112,7 @@ button {
 
 a {
 	text-decoration: none !important;
-	//color: $orange;
+	color: $black;
 	@include transition(all $speed-hover ease-out);
 }
 
@@ -136,21 +130,4 @@ img {
 // END IMAGES
 
 // BOOTSTRAP MODIFIERS
-.row,
-.col-12,
-.col-11,
-.col-10,
-.col-9,
-.col-8,
-.col-7,
-.col-6,
-.col-5,
-.col-4,
-.col-3,
-.col-2,
-.col-1,
-.col{
-    margin: 0;
-    padding: 0;
-}
 // END BOOTSTRAP MODIFIERS

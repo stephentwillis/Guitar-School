@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import config from '../../config';
 // -- Imports
 
-const AppContainer = () => {
+const AContainer = () => {
 
     /* #region Objects */
     /* #endregion */
@@ -26,4 +26,4 @@ const AppContainer = () => {
     /*  #endregion */
 }
 
-export default AppContainer;
+export default AContainer;
