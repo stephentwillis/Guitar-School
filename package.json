@@ -1,7 +1,7 @@
 {
-		"name": "react-webpack-scaffold",
+		"name": "guitar-school",
 		"version": "1.0.0",
-		"description": "Template repo with my standard React and Webpack setup",
+		"description": "Online guitar school, modernising the ancient Isaac Guillory online guitar school",
 		"main": "index.js",
 		"scripts": {
 				"start": "webpack-dev-server --config webpack.server.js --open",
@@ -9,14 +9,14 @@
 		},
 		"repository": {
 				"type": "git",
-				"url": "git+https://github.com/stephentwillis/React-Webpack-Scaffold.git"
+				"url": "git+https://github.com/stephentwillis/guitar-school.git"
 		},
 		"author": "Steve Willis",
 		"license": "ISC",
 		"bugs": {
-				"url": "https://github.com/stephentwillis/React-Webpack-Scaffold/issues"
+				"url": "https://github.com/stephentwillis/guitar-school/issues"
 		},
-		"homepage": "https://github.com/stephentwillis/React-Webpack-Scaffold#readme",
+		"homepage": "https://github.com/stephentwillis/guitar-school#readme",
 		"devDependencies": {
 				"@babel/cli": "^7.19.3",
 				"@babel/core": "^7.20.5",

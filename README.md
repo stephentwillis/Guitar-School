@@ -1,4 +1,4 @@
-# React-Webpack-Scaffold
+# Guitar School
 
 Template repo with my standard React and Webpack setup
 
@@ -18,6 +18,7 @@ Template repo with my standard React and Webpack setup
 * __/src/__  All of the files that build the site.  
   *  __/app/__  Javascript & React components.
   *  __/css/__ css files
+  *  __/pages/__ React Router page files
   *  __/sass/__  Sass files 
   *  __/vendor/__  Files for vendor js & css files
 
