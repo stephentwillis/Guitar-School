@@ -9,7 +9,7 @@ module.exports = merge(common, {
 	mode: 'development',
 	devtool: 'hidden-nosources-cheap-source-map',
 	devServer: {
-		port: 1234,
+		port: 8080,
 		open: true,
 		hot: false,
 		liveReload: true,

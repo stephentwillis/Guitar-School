@@ -20,26 +20,11 @@ $half-gap: 0.5rem;
 $single-gap: 1rem;
 $double-gap: 2rem;
 
-// Colours
-$white: #FFFFFF;
-$gray-lightest: #ccc;
-$gray-lighter: #aaa;
-$gray-light: #999;
-$gray: #666;
-$gray-dark: #555;
-$gray-darker: #444;
-$gray-darkest: #333;
-$black: #000000;
-$orange: #FF9C2A;
-$orange-dark: rgb(247, 99, 12);
-$orange-darker: rgb(222, 89, 11);
-$green: #1DFF23;
-$yellow: #FFE814;
-$red: #FF1D23;
-
+// COLOURS
+// END COLOURS
 
 // FONTS
-$font-primary: 'Roboto', Helvetica, Arial, sans-serif;
+$font-primary: Helvetica, Arial, sans-serif;
 
 // FONT SIZES
 $font-smallest: 0.5rem;
@@ -61,8 +46,8 @@ $mob-font-bigger: $font-big * $font-scale-mob;
 $intro-copy-lrg: 1.5rem;
 
 // BORDERS
-$main-border: 1px solid $gray;
-$light-border: 1px solid $gray-lightest;
+//$main-border: 1px solid $gray;
+//$light-border: 1px solid $gray-lightest;
 
 // LETTER SPACING
 $head-space: 0.2rem;

@@ -88,6 +88,7 @@
 				"react-dom": "^18.2.0",
 				"react-popper": "^2.3.0",
 				"react-router": "^6.4.4",
+				"react-router-dom": "^6.4.4",
 				"reactstrap": "^9.1.5",
 				"respond.js": "^1.4.2",
 				"simplebar": "^5.3.9",
