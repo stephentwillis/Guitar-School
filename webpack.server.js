@@ -17,10 +17,6 @@ module.exports = merge(common, {
 			directory: path.join(__dirname, "dist")
 		}
 	},
-	output: {
-		filename: '[name].bundle.js',
-		path: path.resolve(__dirname, 'dist')
-	},
 	module: {
 		rules: [
 			{
@@ -43,10 +39,6 @@ module.exports = merge(common, {
 	plugins: [
 		new HtmlWebpackPlugin({
 			template: './src/index.html'
-		}),
-		new webpack.ProvidePlugin({
-			$: 'jquery',
-			jQuery: 'jquery'
 		})
 	]
 });

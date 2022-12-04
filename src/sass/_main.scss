@@ -21,8 +21,8 @@
         border-right: 2px solid $black;
     }
 
-    .guitar__nut {
-        border-left: 5px solid $black;
+    .guitar__fret-0 {
+        border-right: 5px solid $black;
     }
 
     .guitar__legend {
@@ -37,6 +37,7 @@
     .guitar__block,
     .guitar__finger {
         font-weight: bold;
+        padding: 0.35rem 0 0;
         margin: 0.3rem 0;
     }
 
@@ -103,18 +104,50 @@
         background-color: $black;
     }
 
-    .guitar__string-sixth hr,
-    .guitar__string-fifth hr {
+    .guitar__string-first hr,
+    .guitar__string-second hr {
         height: 4px;
     }
 
-    .guitar__string-fourth hr,
-    .guitar__string-third hr {
+    .guitar__string-third hr,
+    .guitar__string-fourth hr {
         height: 5px;
     }
 
-    .guitar__string-second hr,
-    .guitar__string-first hr {
+    .guitar__string-fifth hr,
+    .guitar__string-sixth hr {
         height: 6px;
     }
+}
+
+.scale-block {
+    background-color: #E3E3E3;
+}
+
+.guitar__interval-root-text,
+.guitar__interval-octave-text,
+.guitar__interval-fourth-text,
+.guitar__interval-fifth-text {
+    color: $maroon;
+}
+
+.guitar__interval-second-text {
+    color: $blue;
+}
+
+.guitar__interval-third-text {
+    color: $cyan;
+}
+
+.guitar__interval-augmented-text,
+.guitar__interval-diminished-text  {
+    color: $green;
+}
+
+.guitar__interval-sixth-text {
+    color: $magenta;
+}
+
+.guitar__interval-seventh-text {
+    color: $orange;
 }

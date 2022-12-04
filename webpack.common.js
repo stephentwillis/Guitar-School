@@ -3,16 +3,27 @@ const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-	entry   : {
-		vendor  : [
-			'./src/js/vendor.js',
-			'./src/css/vendor.css'
-		],
+	entry: {
 		styles  : './src/sass/styles.scss',
 		scripts : './src/app.js'
 	},
+	output: {
+		filename: '[name].bundle.js',
+		path: path.resolve(__dirname, 'assets')
+	},
+	resolve: {
+		extensions: ["", ".webpack.js", ".web.js", ".ts", ".tsx", ".js"],
+		fallback: {
+			fs : false
+		}		
+	},
 	module  : {
 		rules : [
+			// All files with a '.ts' or '.tsx' extension will be handled by 'ts-loader'.
+			{ 
+				test: /\.(ts|tsx)$/,
+				loader: "ts-loader" 
+			},
 			{
 				test: /\.(js|jsx)$/,
 				exclude: /node_modules/,
@@ -44,10 +55,5 @@ module.exports = {
 	},
 	plugins : [
 		new CleanWebpackPlugin()
-	],
-	resolve: {
-		fallback: {
-			fs : false
-		}		
-	}
+	]
 };

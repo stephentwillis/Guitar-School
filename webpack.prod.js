@@ -9,10 +9,6 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = merge(common, {
 	mode: 'production',
-	output: {
-		filename: '[name].bundle.js',
-		path: path.resolve(__dirname, 'assets')
-	},
 	module: {
 		rules: [
 			{
